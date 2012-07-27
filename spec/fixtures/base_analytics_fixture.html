@@ -1,0 +1,19 @@
+<span class="testClass">foo bar</span>
+<div>
+  <input type="button" data-metric-event="click" data-value="button" value="Button" />
+  <ul data-metric-event="li click">
+    <li data-value="item1">Item 1</li>
+    <li data-value="item2">Item 2</li>
+    <li data-value="item3">Item 3</li>
+    <li data-value="item4">Item 4</li>
+    <li data-value="item5">Item 5</li>
+  </ul>
+</div>
+<div id="withCondition" class="testClass2" 
+  data-metric-method="test"
+  data-metric-event="click"
+  data-metric-condition=".insideClass attr(class contains active)">
+  <div class="insideClass"></div>
+  foo bar
+</div>
+<div class="container"></div>
